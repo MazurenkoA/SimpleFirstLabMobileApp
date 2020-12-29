@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Simple First Lab of Mobile App</string>
+    <string name="hint_editText">Введите текст</string>
+    <string name="text_name_lab"><i>First Lab of \"Mobile App\"</i></string>
+    <string name="text_editTextView">Добро пожаловать !</string>
+    <string name="button_editText">Click Me</string>
+    <string name="labelComboBox">Выберите что-то из выпадающего списка</string>
+    <string name="label_date">Выбранная дата:</string>
+    <string name="text_click_me">Выбрать дату ?</string>
+
+    <!-- Правильнее было бы убрать этот фрагемент от сюда, т.к. одни и те же данные дублируются в двух местах-->
+    <!-- Лучше перенести в код, в SpinnerStorage, и реализовать через тип Enum -->
+    <string-array name="spinnerStorage">
+        <item>Ничего не выбрано ( ´･･)ﾉ(._.`)</item>
+        <item>Пользователь (^_^)</item>
+        <item>Вся суть (¬‿¬)</item>
+        <item>Путь</item>
+    </string-array>
+</resources>
